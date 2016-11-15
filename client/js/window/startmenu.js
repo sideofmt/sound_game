@@ -3,11 +3,11 @@ var StartMenu = function(context){
 
   var ctx = context;
 
-  this.prototype.main = function(){
+  StartMenu.prototype.main = function(){
 
     ctx.fillStyle = "white";
     ctx.font = "30px 'MS Pゴシック'";
-    ctx.filltext("Main Menu",50,100);
+    ctx.fillText("Main Menu",50,100);
 
   }
 
